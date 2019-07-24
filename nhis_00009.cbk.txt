@@ -1,0 +1,2085 @@
+Description: Revision of (Revision of (Revision of 00006))
+Samples selected:
+      NHIS 2000                                         regular
+      NHIS 2005                                         regular
+      NHIS 2010                                         regular
+      NHIS 2015                                         regular
+File Type:                    rectangular
+Case Selection:               No
+  Variable               Columns        Len    2000    2005    2010    2015   
+  YEAR               1   1-4            4      X       X       X       X 
+  SERIAL             1   5-10           6      X       X       X       X 
+  STRATA             1  11-14           4      X       X       X       X 
+  PSU                1  15-17           3      X       X       X       X 
+  NHISHID            1  18-31          14      X       X       X       X 
+  HHWEIGHT           1  32-37           6      X       X       X       X 
+  REGION             1  38-39           2      X       X       X       X 
+  LIVINGQTR          1  40-41           2      X       X       X       X 
+  PERNUM             2  42-43           2      X       X       X       X 
+  NHISPID            2  44-59          16      X       X       X       X 
+  HHX                2  60-65           6      X       X       X       X 
+  FMX                2  66-67           2      X       X       X       X 
+  PX                 2  68-69           2      X       X       X       X 
+  PERWEIGHT          2  70-81          12      X       X       X       X 
+  SAMPWEIGHT         2  82-90           9      X       X       X       X 
+  FWEIGHT            2  91-96           6      X       X       X       X 
+  ASTATFLG           2  97              1      X       X       X       X 
+  CSTATFLG           2  98              1      X       X       X       X 
+  AGE                2  99-100          2      X       X       X       X 
+  SEX                2 101              1      X       X       X       X 
+  MARSTAT            2 102-103          2      X       X       X       X 
+  RACEA              2 104-106          3      X       X       X       X 
+  HISPETH            2 107-108          2      X       X       X       X 
+  EDUCREC2           2 109-110          2      X       X       X       X 
+  EDUCREC1           2 111-112          2      X       X       X       X 
+  EDUC               2 113-115          3      X       X       X       X 
+  EMPSTAT            2 116-117          2      X       X       X       X 
+  PAIDHOUR           2 118              1      X       X       X       X 
+  PAIDSICK           2 119              1      X       X       X       X 
+  EMPSTATWKYR        2 120              1      X       X       X       X 
+  POORYN             2 121              1      X       X       X       X 
+  INCFAM97ON2        2 122-123          2      X       X       X       X 
+  EARNINGS           2 124-125          2      X       X       X       X 
+  POVERTY            2 126-127          2      X       X       X       X 
+  HEALTH             2 128              1      X       X       X       X 
+  HEIGHT             2 129-130          2      X       X       X       X 
+  WEIGHT             2 131-133          3      X       X       X       X 
+  BMICALC            2 134-137          4      X       X       X       X 
+  BMI                2 138-141          4      X       X       X       X 
+  PREGNANTNOW        2 142              1      X       X       X       X 
+  BIRTHAG            2 143-144          2      X       X       X       X 
+  BIRTHEV            2 145              1      X       X       X       X 
+  HORMONER           2 146              1      X       X       X       X 
+  MENARCH            2 147-148          2      X       X       X       X 
+  RALOXIFN           2 149              1      X       X       X       X 
+  TAMOXIFN           2 150              1      X       X       X       X 
+  BCPILNOW           2 151              1      X       X       X       X 
+  CHEB               2 152-153          2      X       X       X       X 
+  USUALPL            2 154              1      X       X       X       X 
+  TYPPLSICK          2 155-156          2      X       X       X       X 
+  ROUTCARE           2 157              1      X       X       X       X 
+  DELAYCOST          2 158              1      X       X       X       X 
+  CHANGEIN           2 159              1      X       X       X       X 
+  FAMDELAYCONO       2 160-161          2      X       X       X       X 
+  FAMDELAYCOST       2 162              1      X       X       X       X 
+  FAMYBARCAR         2 163              1      X       X       X       X 
+  FAMYBARCARNO       2 164-165          2      X       X       X       X 
+  PLACECAR           2 166-167          2      X       X       X       X 
+  DELAYAPPT          2 168              1      X       X       X       X 
+  DELAYHRS           2 169              1      X       X       X       X 
+  DELAYPHONE         2 170              1      X       X       X       X 
+  DELAYTRANS         2 171              1      X       X       X       X 
+  DELAYWAIT          2 172              1      X       X       X       X 
+  YBARCARE           2 173              1      X       X       X       X 
+  YBARDENTAL         2 174              1      X       X       X       X 
+  YBARGLASS          2 175              1      X       X       X       X 
+  YBARMEDS           2 176              1      X       X       X       X 
+  YBARMENTAL         2 177              1      X       X       X       X 
+  HINOTCOVE          2 178              1      X       X       X       X 
+  HIPUBCOVE          2 179              1      X       X       X       X 
+  HIPRIVATEE         2 180              1      X       X       X       X 
+  HILAST             2 181-182          2      X       X       X       X 
+  HINOTYR            2 183              1      X       X       X       X 
+  VACFLUSH12M        2 184              1      X       X       X       X 
+  CNBLAD             2 185              1      X       X       X       X 
+  CNBLOD             2 186              1      X       X       X       X 
+  CNBONE             2 187              1      X       X       X       X 
+  CNBRAN             2 188              1      X       X       X       X 
+  CNBRES             2 189              1      X       X       X       X 
+  CNCERV             2 190              1      X       X       X       X 
+  CNCOLN             2 191              1      X       X       X       X 
+  CNESOP             2 192              1      X       X       X       X 
+  CNGALL             2 193              1      X       X       X       X 
+  CNKIDN             2 194              1      X       X       X       X 
+  CNKIND3            2 195              1      X       X       X       X 
+  CNLARX             2 196              1      X       X       X       X 
+  CNLEUK             2 197              1      X       X       X       X 
+  CNLIVR             2 198              1      X       X       X       X 
+  CNLUNG             2 199              1      X       X       X       X 
+  CNLYMP             2 200              1      X       X       X       X 
+  CNMELN             2 201              1      X       X       X       X 
+  CNMOTH             2 202              1      X       X       X       X 
+  CNOTHR             2 203              1      X       X       X       X 
+  CNOVAR             2 204              1      X       X       X       X 
+  CNPANC             2 205              1      X       X       X       X 
+  CNPROS             2 206              1      X       X       X       X 
+  CNRECT             2 207              1      X       X       X       X 
+  CNSKDK             2 208              1      X       X       X       X 
+  CNSKNM             2 209              1      X       X       X       X 
+  CNSOFT             2 210              1      X       X       X       X 
+  CNSTOM             2 211              1      X       X       X       X 
+  CNTEST             2 212              1      X       X       X       X 
+  CNTHRO             2 213              1      X       X       X       X 
+  CNTHYR             2 214              1      X       X       X       X 
+  CNUTER             2 215              1      X       X       X       X 
+  SMOKEV             2 216-217          2      X       X       X       X 
+  SMOKFREQNOW        2 218              1      X       X       X       X 
+  PCRXFILLYR         2 219              1      .       .       .       X 
+  PCAPPTHPYR         2 220              1      .       .       .       X 
+  PCCHATHELYR        2 221              1      .       .       .       X 
+  PCEMAILHPYR        2 222              1      .       .       .       X 
+  PCLOOKHELYR        2 223              1      .       .       .       X 
+  BSTHEV             2 224              1      X       X       X       X 
+  BSTOEV             2 225              1      X       X       X       X 
+  BSTHYL             2 226              1      X       X       X       X 
+  BXEV               2 227              1      X       X       X       X 
+  BXLNO              2 228-229          2      X       X       X       X 
+  GENTBCAN           2 230              1      X       X       X       X 
+  GENTCOLCAN         2 231              1      X       X       X       X 
+  GENTCANDISC        2 232              1      X       X       X       X 
+  GENTCANEV          2 233              1      X       X       X       X 
+  GENTLDMO           2 234-235          2      X       X       X       X 
+  GENTLNO            2 236-237          2      X       X       X       X 
+  GENTLTP            2 238              1      X       X       X       X 
+  GENTOTHCAN         2 239              1      X       X       X       X 
+  GENTOVCAN          2 240              1      X       X       X       X 
+  GENTLDYR           2 241-244          4      X       X       X       X 
+  GENCNSLBC          2 245              1      .       .       .       X 
+  GENCNSLCRC         2 246              1      .       .       .       X 
+  GENCNSLOC          2 247              1      .       .       .       X 
+  GENCNSLOTHC        2 248              1      .       .       .       X 
+  GENCNSLRSN         2 249              1      .       .       .       X 
+  GENTESTTC          2 250              1      .       .       .       X 
+  GENCOUNS           2 251              1      X       .       .       X 
+  GENTHINS           2 252              1      X       X       X       . 
+  GENTCANHR          2 253              1      X       X       X       . 
+  GENCCRISK          2 254              1      .       X       X       . 
+  GENTCANDREC        2 255              1      X       X       X       X 
+  MAMEV              2 256              1      X       X       X       X 
+  MAMDR1YR           2 257              1      X       X       X       X 
+  MAMLNO             2 258-259          2      X       X       X       X 
+  PAPEV              2 260              1      X       X       X       X 
+  PAPDR1YR           2 261              1      X       X       X       X 
+  PAPLNO             2 262-263          2      X       X       X       X 
+  BFHCAN             2 264              1      X       X       X       X 
+  BMHCAN             2 265              1      X       X       X       X 
+  FBNHCAN            2 266-267          2      X       X       X       X 
+  FSNHCAN            2 268-269          2      X       X       X       X 
+  BMBTCAN            2 270              1      X       X       X       X 
+  BMABTCAN           2 271              1      X       X       X       X 
+  FSNBTCAN           2 272-273          2      X       X       X       X 
+  FSABTCAN           2 274-275          2      X       X       X       X 
+  BMCXCAN            2 276              1      X       X       X       X 
+  BMACXCAN           2 277              1      X       X       X       X 
+  FSNCXCAN           2 278-279          2      X       X       X       X 
+  FSACXCAN           2 280-281          2      X       X       X       X 
+
+Variable Availability Key:
+All Years X - available in this sample
+All Years . - not available in this sample
+
+
+ REGION		Region of residence
+01		Northeast
+02		North Central/Midwest
+03		South
+04		West
+08		NO DATA IN ROUND
+09		Unknown
+
+ LIVINGQTR		Type of living quarters
+10		Housing unit, kind unknown
+20		House, apartment, flat
+21		House, apartment, flat, condo
+30		HU-in nontransient hotel, motel, etc.
+31		HU-permanent in transient hotel, motel, etc.
+32		HU in rooming house
+33		Mobile home or trailer with no permanent room added
+34		Mobile home or trailer with one or more permanent rooms added
+40		HU not specified above
+50		Not housing unit
+51		Quarters not HU in rooming or boarding house
+52		Unit not permanent in transient hotel, motel, etc.
+53		Unoccupied site for mobile home, trailer or tent
+54		Student quarters in college dormitory
+55		Other group quarter
+56		Other unit - not specified
+57		Other unit - kind unknown
+98		Unknown - Not ascertained
+
+ ASTATFLG		Sample adult flag
+0		NIU
+1		Sample adult, has record
+2		Sample adult, no record
+3		Not selected as sample adult
+4		No one selected as sample adult
+5		Armed force member
+6		AF member, selected as sample adult
+
+ CSTATFLG		Sample child flag
+0		NIU
+1		Sample child-has record
+2		Sample child-no record
+3		Not selected as sample child
+4		No one selected as sample child
+5		Emancipated minor
+
+ SEX		Sex
+1		Male
+2		Female
+
+ MARSTAT		Legal marital status
+00		NIU
+10		Married
+11		Married - Spouse present
+12		Married - Spouse not in household
+13		Married - Spouse in household unknown
+20		Widowed
+30		Divorced
+40		Separated
+50		Never married
+99		Unknown marital status
+
+ RACEA		Main Racial Background (Pre-1997 Revised OMB Standards), self-reported or interviewer reported
+100		White
+200		Black/African-American
+300		Aleut, Alaskan Native, or American Indian
+310		Alaskan Native or American Indian
+320		Alaskan Native/Eskimo
+330		Aleut
+340		American Indian
+400		Asian or Pacific Islander
+410		Asian
+411		Chinese
+412		Filipino
+413		Korean
+414		Vietnamese
+415		Japanese
+416		Asian Indian
+420		Pacific Islander
+421		Hawaiian
+422		Samoan
+423		Guamanian
+430		Other Asian or Pacific Islander
+431		Other Asian or Pacific Islander (1992-1995)
+432		Other Asian or Pacific Islander (1996)
+433		Other Asian or Pacific Islander (1997-1998)
+434		Other Asian (1999 forward)
+500		Other Race
+510		Other Race (1969-1977)
+520		Other Race (1978)
+530		Other Race (1979-1991)
+540		Other Race (1992-1995)
+550		Other Race (1996)
+560		Other Race (1997-1998)
+570		Other Race (1999-2002)
+580		Primary Race not releasable
+600		Multiple Race, No Primary Race Selected
+610		Multiple Race, including Asian, excluding Black and White
+611		Multiple Race, including Asian and Black, excluding White
+612		Multiple Race, including Asian and White, excluding Black
+613		Multiple Race, including Black, excluding Asian and White
+614		Multiple Race, including Black and White, excluding Asian
+615		Multiple Race, including White, excluding Asian and Black
+616		Multiple Race, including Asian, White, and Black
+617		Multiple Race, excluding Asian, White, and Black
+900		Unknown
+970		Unknown-refused
+980		Unknown-not ascertained
+990		Unknown (1997forward: Don't know)
+
+ HISPETH		Hispanic ethnicity
+10		Not Hispanic/Spanish origin
+20		Mexican
+21		Mexican-Mexicano
+22		Mexicano
+23		Mexican-American
+24		Chicano
+30		Puerto Rican
+40		Cuban/Cuban American
+50		Dominican (Republic)
+60		Other Hispanic
+61		Central or South American
+62		Other Latin American, type not specified
+63		Other Spanish
+64		Hispanic/Latino/Spanish, non-specific type
+65		Hispanic/Latino/Spanish, type refused
+66		Hispanic/Latino/Spanish, type not ascertained
+67		Hispanic/Spanish, type don't know
+70		Multiple Hispanic
+90		Unknown
+91		Unknown if Hispanic/Spanish origin
+92		Two origins, unknown which is the main
+93		Origin unknown, refused or not reported
+99		NIU
+
+ EDUCREC2		Educational attainment recode, intervalled
+00		NIU
+10		Never attended/kindergarten only
+20		Grade 1, 2, 3, or 4
+30		Grade 5, 6, 7, or 8
+31		Grade 5, 6, or 7
+32		Grade 8
+40		Grade 9, 10, 11, or 12
+41		Grade 9, 10, or 11
+42		Grade 12
+50		1 to 4 years of college
+51		1 to 3 years of college
+52		1 to 2 years of college
+53		3 to 4 years of college
+54		4 years college/Bachelor's degree
+60		5+ years of college
+96		Unknown-not reported
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown (1996 forward - Don't know)
+
+ EDUCREC1		Educational attainment recode, nonintervalled
+00		NIU
+01		Never attended/kindergarten only
+02		Grade 1
+03		Grade 2
+04		Grade 3
+05		Grade 4
+06		Grade 5
+07		Grade 6
+08		Grade 7
+09		Grade 8
+10		Grade 9
+11		Grade 10
+12		Grade 11
+13		Grade 12
+14		1 to 3 years of college
+15		4 years college/Bachelor's degree
+16		5+ years of college
+96		Unknown--all causes
+97		Unknown--refused
+98		Unknown--not ascertained
+99		Unknown--not known
+
+ EDUC		Educational attainment
+000		NIU
+100		Grade 8 or less
+101		Never attended/kindergarten only
+102		Grade 1
+103		Grade 2
+104		Grade 3
+105		Grade 4
+106		Grade 5
+107		Grade 6
+108		Grade 7
+109		Grade 8
+200		Grade 9-12. no diploma
+201		Grade 9
+202		Grade 10
+203		Grade 11
+204		12th grade, no diploma
+300		High school diploma or GED
+301		High school graduate
+302		GED or equivalent
+400		Some college, no 4yr degree
+401		Some college, no degree
+402		AA degree: technical/vocational/occupational
+403		AA degree: academic program
+500		Bachelor's degree (BA,AB,BS,BBA)
+600		Master's, Professional, or Doctoral Degree
+601		Master's degree (MA,MS,Med,MBA)
+602		Professional (MD,DDS,DVM,JD)
+603		Doctoral degree (PhD, EdD)
+604		Other degree
+996		No degree, years of education unknown
+997		Unknown--refused
+998		Unknown--not ascertained
+999		Unknown--don't know
+
+ EMPSTAT		Employment status in past 1 to 2 weeks
+00		NIU
+10		Working
+11		Working for pay at job/business
+12		Working, w/out pay, at job/business
+20		With job, but not at work
+21		With job, not at work: not laid-off, not looking
+22		With job, not at work: looking
+30		Unemployed
+31		Unemployed: On layoff
+32		Unemployed: On layoff and looking
+33		Unemployed: Unk if looking or laid off
+34		Unemployed: Looking or on layoff
+35		Unemployed: Have job to return to
+36		Unemployed: Had job during the round
+37		Unemployed: No job during reference period
+40		Not in labor force
+90		Unknown-all causes
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ PAIDHOUR		Paid by the hour at current job
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ PAIDSICK		Paid sick leave at current job
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ EMPSTATWKYR		Work status: Last week, past 12 months
+0		NIU
+1		Had job last week
+2		None last week, had past 12 mo
+3		None last week, none past 12 mo
+4		Never worked
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ POORYN		Above or below poverty threshold
+1		At or above poverty threshold
+2		Below poverty threshold
+9		Unk (1997+: incl. Undefined)
+
+ INCFAM97ON2		Total combined family income (1997+ w. 2007 categories)
+10		$0 - $34,999
+20		$35,000-$74,999
+30		$75,000 and over
+31		$75,000-$99,999
+32		$100,000 and over
+96		$20,000 or more (no detail)
+97		Refused
+98		Not ascertained or undefined
+99		Don't know
+
+ EARNINGS		Person's total earnings, previous calendar year
+00		NIU
+01		$01 to $4999
+02		$5000 to $9999
+03		$10000 to $14999
+04		$15000 to $19999
+05		$20000 to $24999
+06		$25000 to $34999
+07		$35000 to $44999
+08		$45000 to $54999
+09		$55000 to $64999
+10		$65000 to $74999
+11		$75000 and over
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ POVERTY		Ratio of family income to poverty threshold
+10		Less than 1.0
+11		Under .50
+12		.50 to .74
+13		.75 to .99
+14		Less than 1.0 (no other detail)
+20		1.00 to 1.99
+21		1.00 to 1.24
+22		1.25 to 1.49
+23		1.50 to 1.74
+24		1.75 to 1.99
+25		1.00 - 1.99 (no further detail)
+30		2.00 and over
+31		2.00 to 2.49
+32		2.50 to 2.99
+33		3.00 to 3.49
+34		3.50 to 3.99
+35		4.00 to 4.49
+36		4.50 to 4.99
+37		5.00 and over
+38		2.00 and over (no other detail)
+98		Undefinable
+99		Unknown
+
+ HEALTH		Health status
+0		NIU
+1		Excellent
+2		Very Good
+3		Good
+4		Fair
+5		Poor
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ HEIGHT		Height in inches without shoes
+00		NIU
+12		12
+13		13
+14		14
+15		15
+16		16
+17		17
+18		18
+19		19
+20		20
+21		21
+22		22
+23		23
+24		24
+25		25
+26		26
+27		27
+28		28
+29		29
+30		30
+31		31
+32		32
+33		33
+34		34
+35		35
+36		36
+37		37
+38		38
+39		39
+40		40
+41		41
+42		42
+43		43
+44		44
+45		45
+46		46
+47		47
+48		48
+49		49
+50		50
+51		51
+52		52
+53		53
+54		54
+55		55
+56		56
+57		57
+58		58 (1996: 58 inches or less)
+59		59
+60		60
+61		61
+62		62
+63		63
+64		64
+65		65
+66		66
+67		67
+68		68
+69		69
+70		70
+71		71
+72		72
+73		73
+74		74
+75		75
+76		76
+77		77 (1996: 77+ inches)
+78		78
+79		79
+80		80
+81		81
+82		82
+83		83
+84		84 (1976 - 1981: 84+ inches)
+85		85
+86		86
+87		87
+88		88
+89		89
+90		90
+91		91
+92		92
+93		93
+94		94+
+95		Unknown-all causes
+96		Exceptionally short or tall
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ PREGNANTNOW		Currently pregnant
+0		NIU
+1		No
+2		Yes
+7		Unknown--refused
+8		Unknown--not ascertained
+9		Unknown--don't know
+
+ BIRTHAG		Age at birth of first child
+00		NIU
+01		1 year
+02		2 years
+03		3 years
+04		4 years
+05		5 years
+06		6 years
+07		7 years
+08		8 years
+09		9 years
+10		10 years
+11		11 years
+12		12 years
+13		13 years
+14		14 years
+15		15 years
+16		16 years
+17		17 years
+18		18 years
+19		19 years
+20		20 years
+21		21 years
+22		22 years
+23		23 years
+24		24 years
+25		25 years
+26		26 years
+27		27 years
+28		28 years
+29		29 years
+30		30 years
+31		31 years
+32		32 years
+33		33 years
+34		34 years
+35		35 years
+36		36 years
+37		37 years
+38		38 years
+39		39 years
+40		40 years
+41		41 years
+42		42 years
+43		43 years
+44		44 years
+45		45 years
+46		46 years
+47		47 years
+48		48 years
+49		49 years
+50		50 years
+51		51 years
+52		52 years
+53		53 years
+54		54 years
+55		55 years
+56		56 years
+57		57 years
+58		58 years
+59		59 years
+60		60 years
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ BIRTHEV		Ever gave birth to live born infant
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ HORMONER		Currently taking hormone replacement therapy
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ MENARCH		Age at first menstrual period
+00		Haven't started
+01		1 year
+02		2 years
+03		3 years
+04		4 years
+05		5 years
+06		6 years
+07		7 years
+08		8 years
+09		9 years
+10		10 years
+11		11 years
+12		12 years
+13		13 years
+14		14 years
+15		15 years
+16		16 years
+17		17 years
+18		18 years
+19		19 years
+20		20 years
+21		21 years
+22		22 years
+23		23 years
+24		24 years
+25		25 years
+26		26 years
+27		27 years
+28		28 years
+29		29 years
+30		30 years
+31		31 years
+32		32 years
+33		33 years
+34		34 years
+35		35 years
+36		36 years
+37		37 years
+38		38 years
+39		39 years
+40		40 years
+41		41 years
+42		42 years
+43		43 years
+44		44 years
+45		45 years
+46		46 years
+47		47 years
+48		48 years
+49		49 years
+50		50 years
+51		51 years
+52		52 years
+53		53 years
+54		54 years
+55		55 years
+56		56 years
+57		57 years
+58		58 years
+59		59 years
+60		60+ years
+96		NIU
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ RALOXIFN		Currently taking Raloxifen
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ TAMOXIFN		Currently taking Tamoxifen
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BCPILNOW		Currently taking birth control pills/implants/shots
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CHEB		Total number of live births
+00		None
+01		1 live birth
+02		2 live births
+03		3 live births
+04		4 live births
+05		5 live births
+06		6 live births
+07		7 live births
+08		8 live births
+09		9 live births
+10		10 live births
+11		11 live births
+12		12 live births
+13		13 live births
+14		14 live births
+15		15 live births
+16		16 live births
+17		17 live births
+18		18 live births
+19		19 live births
+20		20 live births
+21		21 live births
+22		22 live births
+23		23 live births
+24		24 live births
+25		25+ live births
+96		NIU
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ USUALPL		Has usual place for medical care
+0		NIU
+1		There is no place or No
+2		Yes, has a usual place or Yes
+3		There is more than one place
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ TYPPLSICK		Kind of usual place for medical care
+00		NIU
+10		Clinic or health center
+11		Health center
+12		Public health clinic
+13		Clinic, unspecified type
+14		Community/immigrant/rural clinic
+15		Company or school clinic/center
+16		Urgent care/walk-in clinic
+17		Migrant clinic
+18		Rural health center
+19		Community or family health center
+20		Doctor's office or HMO
+21		Doctor's office
+22		HMO
+23		Doctor's clinic
+30		Hospital emergency room
+40		Hospital outpatient department
+41		County/city/public/county hospital outpatient
+42		Private/other hospital outpatient clinic
+50		Some other place
+51		Psychiatric hospital/clinic
+52		VA hospital/clinic
+53		Military health care facility
+54		Military or VA health care facility
+55		At home
+56		Non-hospital place
+57		Other places (1985: Includes known HMOs)
+60		Doesn't go to one place most often
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ ROUTCARE		Goes to same place for routine care as for sick care
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ DELAYCOST		Medical care delayed due to cost, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know (1993-96: DK or refused)
+
+ CHANGEIN		Changed usual place for health care for insurance reasons
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ FAMDELAYCONO		Number of family members who delayed seeking medical care due to cost, past 12 months
+00		0
+01		1
+02		2
+03		3
+04		4
+05		5
+06		6
+07		7
+08		8
+09		9
+10		10
+11		11
+12		12
+13		13
+14		14
+15		15
+
+ FAMDELAYCOST		Any family member delayed seeking medical care due to cost, past 12 months
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ FAMYBARCAR		Any family member need and not get medical care (due to cost), past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ FAMYBARCARNO		Number of family members who needed and did not get medical care (due to cost) , past 12 months
+00		0
+01		1
+02		2
+03		3
+04		4
+05		5
+06		6
+07		7
+08		8
+09		9
+10		10
+11		11
+12		12
+13		13
+14		14
+15		15
+
+ PLACECAR		Place usually go for routine care
+00		NIU
+10		No usual place for routine care
+11		Doesn't get preventive care anywhere
+12		Doesn't go one place most often
+20		Clinic or health center
+21		Company or school clinic
+22		Migrant clinic
+23		Community or family health center
+24		Rural health center
+25		Walk-in or emergency care center
+26		Other clinic
+30		Doctor's office or HMO
+31		Doctor's office
+32		HMO/Prepaid group
+40		Hospital emergency room
+50		Hospital outpatient department
+60		Some other place
+61		Home
+62		Other place, n.e.c.
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ DELAYAPPT		Delayed care because couldn't get appointment soon
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ DELAYHRS		Delayed care because doctor's office not open
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ DELAYPHONE		Delayed care because couldn't get through by phone
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ DELAYTRANS		Delayed care because lacked transportation
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ DELAYWAIT		Delayed care because wait too long in doctor's office
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ YBARCARE		Needed but couldn't afford medical care, past 12 months
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ YBARDENTAL		Needed but couldn't afford dental care, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ YBARGLASS		Needed but couldn't afford eyeglasses, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ YBARMEDS		Needed but couldn't afford prescription medicines, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ YBARMENTAL		Needed but couldn't afford mental health care, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ HINOTCOVE		Health Insurance coverage status
+0		NIU
+1		No, has coverage
+2		Yes, has no coverage
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ HIPUBCOVE		Has any Medicaid/other public assistance/State sponsored plan or CHIP (recode)
+0		NIU
+1		No
+2		Yes
+9		Unknown/refused
+
+ HIPRIVATEE		Covered by private health insurance: Recode
+1		No
+2		Yes, information
+3		Yes, but no information
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ HILAST		Time since had health coverage (no coverage now)
+00		NIU
+10		6 months or less
+20		More than 6 months, not gt 1 year
+21		1 year
+30		More than 1 year, not gt 3 years
+40		More than 3 years
+50		Never
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ HINOTYR		Had no health coverage at some point during past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ VACFLUSH12M		Had flu SHOT vaccine, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Refused
+8		Not Ascertained
+9		Don't know
+
+ CNBLAD		Ever had cancer: Bladder
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNBLOD		Ever had cancer: Blood
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNBONE		Ever had cancer: Bone
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNBRAN		Ever had cancer: Brain
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNBRES		Ever had cancer: Breast
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNCERV		Ever had cancer: Cervix
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNCOLN		Ever had cancer: Colon
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNESOP		Ever had cancer: Esophagus
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNGALL		Ever had cancer: Gall bladder
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNKIDN		Ever had cancer: Kidney
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNKIND3		Ever had cancer: More than 3 kinds mentioned
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNLARX		Ever had cancer: Larynx-windpipe
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNLEUK		Ever had cancer: Leukemia
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNLIVR		Ever had cancer: Liver
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNLUNG		Ever had cancer: Lung
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNLYMP		Ever had cancer: Lymphoma
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNMELN		Ever had cancer: Melanoma
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNMOTH		Ever had cancer: Mouth/tongue/lip
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNOTHR		Ever had cancer: Other kind
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNOVAR		Ever had cancer: Ovarian
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNPANC		Ever had cancer: Pancreatic
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNPROS		Ever had cancer: Prostate
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNRECT		Ever had cancer: Rectal
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNSKDK		Ever had cancer: Skin (don't know what kind)
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNSKNM		Ever had cancer: Skin (non-melanoma)
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNSOFT		Ever had cancer: Soft tissue (muscle)
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNSTOM		Ever had cancer: Stomach
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNTEST		Ever had cancer: Testicular
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNTHRO		Ever had cancer: Throat-pharynx
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNTHYR		Ever had cancer: Thyroid
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNUTER		Ever had cancer: Uterine
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ SMOKEV		Ever smoked 100 cigarettes in life
+00		NIU
+01		No
+02		Yes
+07		Unknown-refused
+08		Unknown-not ascertained
+09		Unknown-don't know
+
+ SMOKFREQNOW		Smoke every day, some days, or not at all
+0		NIU
+1		Not at all
+2		Some days
+3		Every day
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ PCRXFILLYR		Refilled prescriptions on Internet, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ PCAPPTHPYR		Scheduled appointment w health care provider on Internet, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ PCCHATHELYR		Used online chat groups to learn about health topics in past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ PCEMAILHPYR		Communicated with health care provider using e-mail, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ PCLOOKHELYR		Looked up health information on Internet, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BSTHEV		Ever had blood stool test using home test kit
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BSTOEV		Ever had blood stool test during office visit
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BSTHYL		Reason for most recent home blood stool test
+0		NIU
+1		Part of routine physical exam/screening
+2		Because of specific problem
+3		Follow-up of earlier test/screening
+4		Family history
+5		Other
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BXEV		Ever had breast physical exam
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BXLNO		Time since most recent breast exam: Number of units
+00		NIU
+01		1
+02		2
+03		3
+04		4
+05		5
+06		6
+07		7
+08		8
+09		9
+10		10
+11		11
+12		12
+13		13
+14		14
+15		15
+16		16
+17		17
+18		18
+19		19
+20		20
+21		21
+22		22
+23		23
+24		24
+25		25
+26		26
+27		27
+28		28
+29		29
+30		30
+31		31
+32		32
+33		33
+34		34
+35		35
+36		36
+37		37
+38		38
+39		39
+40		40
+41		41
+42		42
+43		43
+44		44
+45		45
+46		46
+47		47
+48		48
+49		49
+50		50
+51		51
+52		52
+53		53
+54		54
+55		55
+56		56
+57		57
+58		58
+59		59
+60		60
+61		61
+62		62
+63		63
+64		64
+65		65
+66		66
+67		67
+68		68
+69		69
+70		70
+71		71
+72		72
+73		73
+74		74
+75		75
+76		76
+77		77
+78		78
+79		79
+80		80
+81		81
+82		82
+83		83
+84		84
+85		85
+86		86
+87		87
+88		88
+89		89
+90		90
+91		91
+92		92
+93		93
+94		94
+95		95+
+96		Less than 1 year
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ GENTBCAN		Had genetic test for breast cancer risk
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ GENTCOLCAN		Had genetic test for colon/rectal cancer risk
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ GENTCANDISC		Ever discussed genetic testing for cancer risk with doctor
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ GENTCANEV		Ever had genetic test for cancer risk
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ GENTLDMO		Month date of last genetic test
+00		NIU
+01		January
+02		February
+03		March
+04		April
+05		May
+06		June
+07		July
+08		August
+09		September
+10		October
+11		November
+12		December
+96		Used time period format
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ GENTLNO		Time since most recent genetic test: Number of units
+00		NIU
+01		1
+02		2
+03		3
+04		4
+05		5
+06		6
+07		7
+08		8
+09		9
+10		10
+11		11
+12		12
+13		13
+14		14
+15		15
+16		16
+17		17
+18		18
+19		19
+20		20
+21		21
+22		22
+23		23
+24		24
+25		25
+26		26
+27		27
+28		28
+29		29
+30		30
+31		31
+32		32
+33		33
+34		34
+35		35
+36		36
+37		37
+38		38
+39		39
+40		40
+41		41
+42		42
+43		43
+44		44
+45		45
+46		46
+47		47
+48		48
+49		49
+50		50
+51		51
+52		52
+53		53
+54		54
+55		55
+56		56
+57		57
+58		58
+59		59
+60		60
+61		61
+62		62
+63		63
+64		64
+65		65
+66		66
+67		67
+68		68
+69		69
+70		70
+71		71
+72		72
+73		73
+74		74
+75		75
+76		76
+77		77
+78		78
+79		79
+80		80
+81		81
+82		82
+83		83
+84		84
+85		85
+86		86
+87		87
+88		88
+89		89
+90		90
+91		91
+92		92
+93		93
+94		94
+95		95+
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ GENTLTP		Time since most recent genetic test: Time period
+0		NIU
+1		Days
+2		Weeks
+3		Months
+4		Years
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ GENTOTHCAN		Had genetic test for other type of cancer risk
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ GENTOVCAN		Had genetic test for ovarian cancer risk
+0		NIU
+1		No
+2		No, male and not applicable
+3		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ GENTLDYR		Year date of last genetic test
+0000		NIU
+9996		Used time period format
+9997		Unknown-refused
+9998		Unknown-not ascertained
+9999		Unknown-don't know
+
+ GENCNSLBC		Genetic counseling for breast cancer
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ GENCNSLCRC		Genetic counseling for colon/rectal cancer
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ GENCNSLOC		Genetic counseling for ovarian cancer
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ GENCNSLOTHC		Genetic counseling for other cancer
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ GENCNSLRSN		Main reason for genetic counseling
+0		NIU
+1		Your doctor recommended it
+2		You requested it
+3		Family member suggested it
+4		You heard or read about it in the news
+5		Other
+7		Refused
+8		Not ascertained
+9		Don't know
+
+ GENTESTTC		How long since genetic testing (categories provided)
+0		NIU
+1		A year ago or less
+2		More than 1 year but not more than 2 years
+3		More than 2 years but not more than 3 years
+4		More than 3 years but not more than 5 years
+5		More than 5 years
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ GENCOUNS		Received genetic counseling about test for cancer risk
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ GENTHINS		Genetic testing affects health insurance
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ GENTCANHR		Ever heard of genetic testing for cancer risk
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ GENCCRISK		Risk of cancer compared to average person of same age
+0		NIU
+1		More likely to get cancer
+2		Less likely
+3		About as likely
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ GENTCANDREC		Doctor recommended have genetic test for cancer
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ MAMEV		Ever had a mammogram
+0		NIU
+1		No
+2		Yes
+3		Other
+7		Unknown--refused
+8		Unknown--not ascertained
+9		Unknown--don't know
+
+ MAMDR1YR		Doctor recommended mammogram in past 12 months
+0		NIU
+1		No
+2		No, no doctor in past year
+3		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ MAMLNO		Time since most recent mammogram: Number of units
+00		Less than 1 year
+01		1
+02		2
+03		3
+04		4
+05		5
+06		6
+07		7
+08		8
+09		9
+10		10
+11		11
+12		12
+13		13
+14		14
+15		15
+16		16
+17		17
+18		18
+19		19
+20		20
+21		21
+22		22
+23		23
+24		24
+25		25
+26		26
+27		27
+28		28
+29		29
+30		30
+31		31
+32		32
+33		33
+34		34
+35		35
+36		36
+37		37
+38		38
+39		39
+40		40
+41		41
+42		42
+43		43
+44		44
+45		45
+46		46
+47		47
+48		48
+49		49
+50		50
+51		51
+52		52
+53		53
+54		54
+55		55
+56		56
+57		57
+58		58
+59		59
+60		60
+61		61
+62		62
+63		63
+64		64
+65		65
+66		66
+67		67
+68		68
+69		69
+70		70
+71		71
+72		72
+73		73
+74		74
+75		75
+76		76
+77		77
+78		78
+79		79
+80		80
+81		81
+82		82
+83		83
+84		84
+85		85
+86		86
+87		87
+88		88
+89		89
+90		90
+91		91
+92		92
+93		93
+94		94
+95		95+
+96		NIU
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ PAPEV		Ever had Pap smear test
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ PAPDR1YR		Doctor recommended Pap test in past 12 months
+0		NIU
+1		No
+2		No doctor visits in last 12 months
+3		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ PAPLNO		Time since most recent Pap test: Number of units
+00		Less than 1
+01		1
+02		2
+03		3
+04		4
+05		5
+06		6
+07		7
+08		8
+09		9
+10		10
+11		11
+12		12
+13		13
+14		14
+15		15
+16		16
+17		17
+18		18
+19		19
+20		20
+21		21
+22		22
+23		23
+24		24
+25		25
+26		26
+27		27
+28		28
+29		29
+30		30
+31		31
+32		32
+33		33
+34		34
+35		35
+36		36
+37		37
+38		38
+39		39
+40		40
+41		41
+42		42
+43		43
+44		44
+45		45
+46		46
+47		47
+48		48
+49		49
+50		50
+51		51
+52		52
+53		53
+54		54
+55		55
+56		56
+57		57
+58		58
+59		59
+60		60
+61		61
+62		62
+63		63
+64		64
+65		65
+66		66
+67		67
+68		68
+69		69
+70		70
+71		71
+72		72
+73		73
+74		74
+75		75
+76		76
+77		77
+78		78
+79		79
+80		80
+81		81
+82		82
+83		83
+84		84
+85		85
+86		86
+87		87
+88		88
+89		89
+90		90
+91		91
+92		92
+93		93
+94		94
+95		95+
+96		NIU
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ BFHCAN		Biological father had cancer
+0		NIU
+1		No
+2		Yes
+3		Adopted or don't know biological father
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BMHCAN		Biological mother had cancer
+0		NIU
+1		No
+2		Yes
+3		Adopted or don't know biological mother
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BMBTCAN		Biological mother had breast cancer
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BMABTCAN		Biological mother under 50 when first diagnosed with breast cancer
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BMCXCAN		Biological mother had cervical cancer
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BMACXCAN		Biological mother under 50 when first diagnosed with cervical cancer
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know

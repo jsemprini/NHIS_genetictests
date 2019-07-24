@@ -1,0 +1,8 @@
+library(mice)
+data_imp <- mice(data = data2impute, m = 1, method = "pmm", maxit = 5, seed = 69)
+
+df <- complete(data_imp)
+
+is.na(df) 
+
+write.csv(df, file = "df.csv")
